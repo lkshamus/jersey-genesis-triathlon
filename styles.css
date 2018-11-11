@@ -10,6 +10,7 @@
 
 p {
   color: #FEFBF4;
+  font-family: 'Nanum Gothic', sans-serif;
   margin: 10px;
 }
 
@@ -21,3 +22,15 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+li {
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 10px 50px;
+  color: #FEFBF4;
+  }
