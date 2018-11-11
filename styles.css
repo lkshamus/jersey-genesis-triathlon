@@ -2,16 +2,25 @@
   margin: auto 0;
   background-color: #2A3F57
 }
+
 .Content {
-  max-width: 750px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 75px 0;
 }
 
-p {
+p, h1 {
   color: #FEFBF4;
   font-family: 'Nanum Gothic', sans-serif;
   margin: 10px;
+}
+
+.info {
+  padding-left: 40px;
+  text-align: center;
+}
+
+.info-tab {
+  padding: 50px;
 }
 
 .hero { 
@@ -23,14 +32,40 @@ p {
     background-size: cover;
 }
 
+.image {
+    background-image: url('./images/bike-photo.jpeg');
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.distance {
+  /*padding: 20px 0 20px 0;*/
+  display: flex;
+  justify-content: center;
+}
+
+.description-distance {
+  list-style: none;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 10px 30px;
+  color: #FEFBF4;
+}
+
 .nav {
   display: flex;
   list-style: none;
   justify-content: center;
 }
 
-li {
+.nav-icons {
   font-family: 'Nanum Gothic', sans-serif;
   padding: 10px 50px;
   color: #FEFBF4;
-  }
+}
+
+.nav-icons:hover {
+  font-size: 18px
+}
