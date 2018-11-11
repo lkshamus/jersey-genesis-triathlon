@@ -1,19 +1,7 @@
-
-.MainContainer {
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
+* {
+  margin: auto 0;
+  background-color: #2A3F57
 }
-
-.ContentContainer {
-  position: relative;
-  display: block;
-  background-color: white;
-  z-index: 1;
-}
-
 .Content {
   max-width: 750px;
   margin: 0 auto;
@@ -21,18 +9,13 @@
 }
 
 p {
+  color: #FEFBF4;
   margin: 10px;
 }
 
-
-.parallax { 
-    /* The image used */
+.hero { 
     background-image: url('./images/bike-race-hero.jpeg');
-
-    /* Set a specific height */
     height: 600px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
