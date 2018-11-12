@@ -20,7 +20,32 @@ p, h1 {
 }
 
 .info-tab {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 400px;
   padding: 50px;
+}
+
+.aqua-heading {
+  position: relative;
+  bottom: 20px;
+}
+
+.tri {
+  grid-column: 1 / span 1;
+}
+
+.du {
+  grid-column: 2 / span 1;
+}
+
+.aqua {
+  grid-column: 3 / span 1;
+}
+
+.kids {
+  position: relative;
+  top: 15px;
+  grid-column: 4 / span 1;
 }
 
 .hero { 
@@ -33,7 +58,7 @@ p, h1 {
 }
 
 .image {
-    background-image: url('./images/bike-photo.jpeg');
+    background-image: url('./images/swim-race.jpeg');
     height: 500px; 
     background-attachment: fixed;
     background-position: center;
@@ -42,9 +67,7 @@ p, h1 {
 }
 
 .distance {
-  /*padding: 20px 0 20px 0;*/
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .description-distance {
@@ -60,6 +83,9 @@ p, h1 {
   justify-content: center;
 }
 
+.text-highlight {
+  font-size: 16px;
+}
 .nav-icons {
   font-family: 'Nanum Gothic', sans-serif;
   padding: 10px 50px;
@@ -67,5 +93,5 @@ p, h1 {
 }
 
 .nav-icons:hover {
-  font-size: 18px
+  color: pink;
 }
