@@ -149,3 +149,51 @@ a {
 a:hover {
   color: pink;
 }
+
+.course-title {
+  text-align: center;
+}
+
+h3 {
+  padding: 10px;
+  color: #FEFBF4;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.swim {
+  padding: 40px;
+  height: 400px;
+
+}
+
+.swim-title, .swim-para {
+  text-align: center;
+}
+
+.swim-para {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#direction-info {
+  display: grid;
+  grid-template-columns: 400px 400px;
+}
+
+.east {
+  grid-column: 1 / span 1;
+}
+
+.south {
+  grid-column: 2 / span 1;
+  position: relative;
+  bottom: 8px;
+  left: 30px;
+}
+.directions {
+  padding-top: 40px;
+}
+
+a {
+  text-decoration: none;
+}
