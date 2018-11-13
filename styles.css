@@ -93,6 +93,15 @@ p, h1 {
     background-size: cover;  
 }
 
+.runner { 
+    background-image: url('./images/runner.jpg');
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .distance {
   text-align: center;
 }
@@ -196,4 +205,14 @@ h3 {
 
 a {
   text-decoration: none;
+}
+
+.course-page {
+  border: 1px solid #fff;
+  width: 600px;
+  margin: auto;
+}
+
+.top {
+  padding-top: 50px;
 }
