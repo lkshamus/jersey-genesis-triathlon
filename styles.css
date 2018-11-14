@@ -21,10 +21,14 @@ table {
 
 * {
   margin: auto 0;
-  background-color: #2A3F57
+}
+
+body {
+  background-color: #2A3F57;
 }
 
 .Content {
+  background-color: #2A3F57;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -76,13 +80,81 @@ p, h1 {
 }
 
 .hero { 
-    background-image: url('./images/bike-race-hero.jpeg');
-    height: 600px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url('./images/bike-race-hero.jpeg');
+  height: 600px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*filter: grayscale(50%)*/
 }
+
+.hero-header {
+  font-family: 'Michroma', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+button{
+  margin: 250px;
+  background:#2A3F57;
+  color:#fff;
+  border:none;
+  position:relative;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:5px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+body{
+  text-align:center;
+}
+body:before{
+  content:'';
+  height:100%;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.btn {
+  margin: 0;
+  font-size: 12px;
+}
+
+.btn:hover {
+  background: #2A3F57;
+}
+
+.hero-header:hover {
+  color: black;
+} 
 
 .image {
     background-image: url('./images/swim-race.jpeg');
@@ -129,7 +201,7 @@ p, h1 {
 }
 
 .nav-icons:hover {
-  color: pink;
+  color: #ffffff;
 }
 
 .pricing, .location {
@@ -153,10 +225,6 @@ p, h1 {
 
 a {
   color: #FEFBF4; 
-}
-
-a:hover {
-  color: pink;
 }
 
 .course-title {
@@ -220,7 +288,12 @@ a {
 .sponser {
   margin: 50px;
   height: 200px;
-  background-color: #ffffff
+  background-color: #ffffff;
+  filter: grayscale(50%);
+}
+
+.sponser:hover {
+  filter: grayscale(0%);
 }
 
 .space {
