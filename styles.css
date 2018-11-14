@@ -227,8 +227,7 @@ a {
   width: 1600px;
   background-color: #ffffff;
 }
-
-.sponser-section {
+.sponsering {
   min-width: 1167px;
   display: flex;
   background-color: #ffffff;
@@ -242,12 +241,38 @@ a {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-
 .travel-north-details {
   padding-bottom: 50px;
 }
 
-.sponser-title {
+{
   text-align: center;
   margin: 20px;
+}
+
+@keyframes animatedBackground {
+  from {
+    left: 0px;
+  }
+  90% {
+    left: -2562px;
+  }
+  100%{left: 0px;}
+}
+.sponser-section {
+  background-color: #ffffff;
+  height: 300px;
+  width: 1500px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.space {
+  width: 1126px;
+  position: relative;
+  animation: animatedBackground 20s linear infinite;
+}
+img{
+  /*border-right:1px solid black;*/
+  box-sizing:border-box;
 }
