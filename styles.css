@@ -362,9 +362,14 @@ img{
 
 @media (max-width: 1128px) {
 body {
-    overflow-x: hidden;
-    width: 100%;
+  overflow-x: hidden;
+  width: 100%;
 }
+
+.sponsering, .sponser-section {
+  min-width: 1128px;
+}
+
 .info-tab {
   display: flex;
   padding: 50px;
@@ -374,7 +379,9 @@ body {
 
 
 @media (max-width: 1029px) {
-
+.sponsering {
+  min-width: 1029px;
+}
 .info {
   font-size: 16px;
 }
@@ -383,6 +390,9 @@ body {
 
 @media (max-width: 914px) {
 
+.sponsering, .sponser-section {
+  min-width: 914px;
+}
 .info-tab {
   padding: 20px;
 }
@@ -395,7 +405,9 @@ body {
 .info-tab {
   padding: 20px;
 }
-
+.sponsering, .sponser-section {
+  min-width: 863px;
+}
 }
 
 @media (max-width: 854px) {
@@ -407,6 +419,9 @@ body {
 .description-distance {
   padding: 10px 20px;
 }
+.sponsering, .sponser-section {
+  min-width: 854px;
+}
 }
 
 
@@ -414,6 +429,10 @@ body {
 .south {
   width: 300px;
   word-break: break-word;
+}
+
+.sponsering, .sponser-section {
+  min-width: 827px;
 }
 
 }
@@ -425,6 +444,9 @@ body {
   padding: 10px;
 }
 
+.sponsering, .sponser-section {
+  min-width: 767px;
+}
 .description-distance {
   padding: 10px 10px;
 }
@@ -435,6 +457,10 @@ body {
 
 .info-tab {
   padding: 8px;
+}
+
+.sponsering, .sponser-section {
+  min-width: 723px;
 }
 
 .description-distance {
@@ -454,6 +480,9 @@ body {
   .south {
     width: 250px;
   }
+  .sponsering, .sponser-section {
+  min-width: 696px;
+}
 }
 
  
@@ -476,6 +505,9 @@ body {
 .nav-icons {
   padding: 0;
 }
+.sponsering, .sponser-section {
+  min-width: 673px;
+}
 
 }
 
@@ -485,6 +517,9 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr
+}
+.sponsering, .sponser-section {
+  width: 644px;
 }
 
 .tri {
@@ -511,20 +546,31 @@ body {
   right: 21px;
 }
 }
+
 @media (max-width: 573px) {
   #direction-info {
     grid-template-columns: 200px 200px;
   }
+  .sponsering, .sponser-section {
+ min-width: 573px;
+}
 }
 
 @media (max-width: 538px) {
   .hero-header {
     font-size: 30px;
   }
+  .sponsering, .sponser-section {
+  min-width: 538px;
+}
+}
 
 
 @media (max-width: 490px) {
   .nav-icons {
     font-size: 12px;
   }
+  .sponsering, .sponser-section {
+  min-width: 490px;
+}
 }
