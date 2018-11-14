@@ -86,7 +86,6 @@ p, h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*filter: grayscale(50%)*/
 }
 
 .hero-header {
@@ -97,10 +96,11 @@ p, h1 {
 }
 
 button{
-  margin: 250px;
+  margin: 250px 0 0 400px;
   background:#2A3F57;
   color:#fff;
   border:none;
+  width: 600px;
   position:relative;
   font-size:1.6em;
   padding:0 2em;
@@ -133,19 +133,12 @@ button:hover:before,button:hover:after{
   transition:800ms ease all;
 }
 
-body{
-  text-align:center;
-}
-body:before{
-  content:'';
-  height:100%;
-  display:inline-block;
-  vertical-align:middle;
-}
 
 .btn {
+  padding: 10px;
   margin: 0;
   font-size: 18px;
+  width: 300px;
 }
 
 .btn:hover {
