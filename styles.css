@@ -145,6 +145,12 @@ button:hover:before,button:hover:after{
   background: #2A3F57;
 }
 
+.course-btn {
+  position: relative;
+  right: 15px;
+  width: 250px;
+}
+
 .hero-header:hover {
   color: black;
 } 
