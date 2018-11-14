@@ -80,6 +80,9 @@ p, h1 {
 }
 
 .hero { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('./images/bike-race-hero.jpeg');
   height: 600px; 
   background-attachment: fixed;
@@ -96,7 +99,6 @@ p, h1 {
 }
 
 button{
-  margin: 250px 0 0 400px;
   background:#2A3F57;
   color:#fff;
   border:none;
