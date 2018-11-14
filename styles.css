@@ -216,3 +216,23 @@ a {
 .top {
   padding-top: 50px;
 }
+
+.sponser {
+  margin: 50px;
+  height: 200px;
+  background-color: #ffffff
+}
+
+.sponser-section {
+  display: flex;
+  background-color: #ffffff;
+  overflow: auto;
+  height: 300px;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.travel-north-details {
+  padding-bottom: 50px;
+}
