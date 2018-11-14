@@ -223,7 +223,13 @@ a {
   background-color: #ffffff
 }
 
+.space {
+  width: 1600px;
+  background-color: #ffffff;
+}
+
 .sponser-section {
+  min-width: 1167px;
   display: flex;
   background-color: #ffffff;
   overflow: auto;
@@ -231,8 +237,17 @@ a {
   white-space: nowrap;
   justify-content: center;
   align-items: center;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .travel-north-details {
   padding-bottom: 50px;
+}
+
+.sponser-title {
+  text-align: center;
+  margin: 20px;
 }
