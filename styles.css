@@ -255,10 +255,15 @@ a {
     left: 0px;
   }
   90% {
-    left: -2562px;
+    left: -5062px;
   }
-  100%{left: 0px;}
 }
+
+.sponser-title {
+  text-align: center;
+  padding: 50px;
+}
+
 .sponser-section {
   background-color: #ffffff;
   height: 300px;
@@ -270,9 +275,8 @@ a {
 .space {
   width: 1126px;
   position: relative;
-  animation: animatedBackground 20s linear infinite;
+  animation: animatedBackground 50s linear infinite;
 }
 img{
-  /*border-right:1px solid black;*/
   box-sizing:border-box;
 }
