@@ -577,4 +577,23 @@ body {
   .sponsering, .sponser-section, .space {
   max-width: 420px;
 }
+
+
+@media (max-width: 414px) {
+
+  .nav-icons {
+    font-size: 12px;
+  }
+  .sponsering, .sponser-section, .space {
+  max-width: 414px;
+}
+
+@keyframes animatedBackground {
+  from {
+    left: 0px;
+  }
+  100% {
+    left: -10000px;
+  }
+}
 }
