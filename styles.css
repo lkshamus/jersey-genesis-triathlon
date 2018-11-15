@@ -355,18 +355,13 @@ img{
   box-sizing:border-box;
 }
 
-
-
-
-
-
 @media (max-width: 1128px) {
 body {
   overflow-x: hidden;
   width: 100%;
 }
 
-.sponsering, .sponser-section {
+.sponsering, .sponser-section, .space {
   min-width: 1128px;
 }
 
@@ -390,7 +385,7 @@ body {
 
 @media (max-width: 914px) {
 
-.sponsering, .sponser-section {
+.sponsering, .sponser-section, .space {
   min-width: 914px;
 }
 .info-tab {
@@ -405,7 +400,7 @@ body {
 .info-tab {
   padding: 20px;
 }
-.sponsering, .sponser-section {
+.sponsering, .sponser-section, .space {
   min-width: 863px;
 }
 }
@@ -419,7 +414,7 @@ body {
 .description-distance {
   padding: 10px 20px;
 }
-.sponsering, .sponser-section {
+.sponsering, .sponser-section, .space {
   min-width: 854px;
 }
 }
@@ -431,7 +426,7 @@ body {
   word-break: break-word;
 }
 
-.sponsering, .sponser-section {
+.sponsering, .sponser-section, .space {
   min-width: 827px;
 }
 
@@ -444,7 +439,7 @@ body {
   padding: 10px;
 }
 
-.sponsering, .sponser-section {
+.sponsering, .sponser-section, .space {
   min-width: 767px;
 }
 .description-distance {
@@ -459,7 +454,7 @@ body {
   padding: 8px;
 }
 
-.sponsering, .sponser-section {
+.sponsering, .sponser-section, .space {
   min-width: 723px;
 }
 
@@ -480,7 +475,7 @@ body {
   .south {
     width: 250px;
   }
-  .sponsering, .sponser-section {
+  .sponsering, .sponser-section, .space {
   min-width: 696px;
 }
 }
@@ -505,7 +500,7 @@ body {
 .nav-icons {
   padding: 0;
 }
-.sponsering, .sponser-section {
+.sponsering, .sponser-section, .space {
   min-width: 673px;
 }
 
@@ -518,7 +513,7 @@ body {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr
 }
-.sponsering, .sponser-section {
+.sponsering, .sponser-section, .space {
   width: 644px;
 }
 
@@ -551,7 +546,7 @@ body {
   #direction-info {
     grid-template-columns: 200px 200px;
   }
-  .sponsering, .sponser-section {
+  .sponsering, .sponser-section, .space {
  min-width: 573px;
 }
 }
@@ -560,7 +555,7 @@ body {
   .hero-header {
     font-size: 30px;
   }
-  .sponsering, .sponser-section {
+  .sponsering, .sponser-section, .space {
   min-width: 538px;
 }
 }
@@ -570,7 +565,16 @@ body {
   .nav-icons {
     font-size: 12px;
   }
-  .sponsering, .sponser-section {
-  min-width: 490px;
+  .sponsering, .sponser-section, .space {
+  max-width: 490px;
+}
+}
+
+@media (max-width: 420px) {
+  .nav-icons {
+    font-size: 12px;
+  }
+  .sponsering, .sponser-section, .space {
+  max-width: 420px;
 }
 }
