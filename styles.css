@@ -449,7 +449,10 @@ body {
 }
 
 @media (max-width: 723px) {
-
+  html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+  }
 .info-tab {
   padding: 8px;
 }
@@ -571,11 +574,13 @@ body {
 }
 
 @media (max-width: 420px) {
+
   .nav-icons {
     font-size: 12px;
   }
   .sponsering, .sponser-section, .space {
   max-width: 420px;
+}
 }
 
 
@@ -593,7 +598,7 @@ body {
     left: 0px;
   }
   100% {
-    left: -10000px;
+    left: 0px;
   }
 }
 }
