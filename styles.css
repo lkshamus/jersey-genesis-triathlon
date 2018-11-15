@@ -584,16 +584,10 @@ body {
 }
 
 .hero, .image, .runner {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
+  background-size: 400px 400px; 
 }
 
-  @media (max-width: @iphone-screen) {
-        background-attachment: scroll;
-  }
 }
-
 
 
 @media (max-width: 414px) {
