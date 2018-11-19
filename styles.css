@@ -591,6 +591,11 @@ body {
 
 @media (max-width: 490px) {
 
+  .media-query {
+    position: relative;
+    right: 15px;
+  }
+
   .hero, .image, .runner {
     height: 400px;
     background-attachment: scroll;
