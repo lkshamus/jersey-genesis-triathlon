@@ -597,8 +597,13 @@ body {
   max-width: 490px;
 }
 
+  .swim-para {
+    width: 300px
+  }
+
 .swim {
   position: relative;
+  height: 300px;
   right: 30px;
 }
 }
