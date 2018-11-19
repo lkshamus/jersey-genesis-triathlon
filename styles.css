@@ -429,7 +429,9 @@ body {
 .sponsering, .sponser-section, .space {
   min-width: 827px;
 }
-
+.swim-para {
+  width: 600px;
+}
 }
 
 
@@ -544,6 +546,10 @@ body {
   position: relative;
   right: 21px;
 }
+
+.swim-para {
+  width: 500px;
+}
 }
 
 @media (max-width: 573px) {
@@ -564,6 +570,20 @@ body {
 }
 }
 
+@media (max-width: 517px) {
+  .swim-para {
+    width: 400px
+  }
+
+  .course-btn {
+    width: 200px;
+  }
+
+  .swim {
+    padding: 50px;
+  }
+}
+
 
 @media (max-width: 490px) {
   .nav-icons {
@@ -571,6 +591,11 @@ body {
   }
   .sponsering, .sponser-section, .space {
   max-width: 490px;
+}
+
+.swim {
+  position: relative;
+  right: 30px;
 }
 }
 
@@ -582,11 +607,6 @@ body {
   .sponsering, .sponser-section, .space {
   max-width: 420px;
 }
-
-/*.hero, .image, .runner {
-  background-size: 1000px 600px; 
-}
-*/
 }
 
 
