@@ -590,6 +590,11 @@ body {
 
 
 @media (max-width: 490px) {
+
+  .hero, .image, .runner {
+    height: 400px;
+    background-attachment: scroll;
+  }
   .nav-icons {
     font-size: 12px;
   }
