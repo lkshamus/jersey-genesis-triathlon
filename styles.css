@@ -559,6 +559,10 @@ body {
   .sponsering, .sponser-section, .space {
  min-width: 573px;
 }
+
+.south {
+    width: 100px;
+  }
 }
 
 @media (max-width: 538px) {
