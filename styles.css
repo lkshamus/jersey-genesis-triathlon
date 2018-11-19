@@ -253,15 +253,17 @@ h3 {
   margin: 0 auto;
 }
 
-#direction-info {
+/*#direction-info {
   display: grid;
   grid-template-columns: 400px 400px;
-}
+}*/
 
 .east {
   grid-column: 1 / span 1;
 }
-
+iframe {
+  margin: auto 0;
+}
 .south {
   grid-column: 2 / span 1;
   position: relative;
@@ -269,7 +271,9 @@ h3 {
   left: 30px;
 }
 .directions {
-  padding-top: 40px;
+  text-align: center;
+  margin: 100px;
+  /*padding-top: 40px;*/
 }
 
 a {
