@@ -642,12 +642,12 @@ body {
   max-width: 414px;
 }
 
-@keyframes animatedBackground {
+/*@keyframes animatedBackground {
   from {
     left: 0px;
   }
   100% {
     left: 0px;
   }
-}
+}*/
 }
