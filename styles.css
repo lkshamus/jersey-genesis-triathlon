@@ -205,6 +205,10 @@ button:hover:before,button:hover:after{
   color: #1AAB8A;
 }
 
+.link {
+  color: #1AAB8A;
+}
+
 .pricing, .location {
   display: grid;
   grid-template-columns: 1fr 1fr;
