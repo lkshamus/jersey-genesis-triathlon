@@ -112,7 +112,7 @@ button{
 }
 button:hover{
   background:#fff;
-  color:#1AAB8A;
+  color: #1AAB8A;
 }
 button:before,button:after{
   content:'';
@@ -202,7 +202,7 @@ button:hover:before,button:hover:after{
 }
 
 .nav-icons:hover {
-  color: #ffffff;
+  color: #1AAB8A;
 }
 
 .pricing, .location {
