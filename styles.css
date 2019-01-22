@@ -205,6 +205,10 @@ button:hover:before,button:hover:after{
   color: #1AAB8A;
 }
 
+.link {
+  color: #1AAB8A;
+}
+
 .pricing, .location {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -212,6 +216,11 @@ button:hover:before,button:hover:after{
 
 .early, .where {
   grid-column: 1 / span 1;
+}
+
+.bolded {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .packet {
