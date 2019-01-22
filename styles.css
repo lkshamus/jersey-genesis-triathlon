@@ -33,7 +33,7 @@ body {
   margin: 0 auto;
 }
 
-p, h1 {
+p, h1, h2 {
   color: #FEFBF4;
   font-family: 'Nanum Gothic', sans-serif;
   margin: 10px;
