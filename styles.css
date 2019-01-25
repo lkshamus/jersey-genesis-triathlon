@@ -337,6 +337,22 @@ a {
   margin: 20px;
 }
 
+
+.extended-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.high-school {
+  grid-column: 1 / span 1;
+}
+
+.high-school-info {
+  width: 470px;
+}
+.bam-adventure {
+  grid-column: 2 / span 1;
+}
 @keyframes animatedBackground {
   from {
     left: 0px;
@@ -367,6 +383,7 @@ a {
 img{
   box-sizing:border-box;
 }
+
 
 @media (max-width: 1128px) {
 body {
