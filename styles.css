@@ -396,6 +396,19 @@ img{
   box-sizing:border-box;
 }
 
+.contact-hme {
+  width: 300px;
+}
+
+.contact-hme:hover {
+  background: #1AAB8A;
+}
+
+.hme {
+  position: relative;
+  top: 700px;
+  text-align: center;
+}
 
 @media (max-width: 1128px) {
 body {
