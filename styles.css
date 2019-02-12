@@ -262,11 +262,6 @@ h3 {
   margin: 0 auto;
 }
 
-/*#direction-info {
-  display: grid;
-  grid-template-columns: 400px 400px;
-}*/
-
 .east {
   grid-column: 1 / span 1;
 }
@@ -279,6 +274,17 @@ iframe {
   bottom: 8px;
   left: 30px;
 }
+
+.hs {
+    background-image: url('./images/highschool.jpeg');
+    height: 600px; 
+    background-size: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 .directions {
   text-align: center;
   margin: 100px;
@@ -352,6 +358,11 @@ a {
 }
 .bam-adventure {
   grid-column: 2 / span 1;
+  margin: 10px;
+}
+
+.hs-info {
+  margin-bottom: 20px;
 }
 @keyframes animatedBackground {
   from {
