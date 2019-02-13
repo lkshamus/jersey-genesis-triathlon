@@ -33,7 +33,7 @@ body {
   margin: 0 auto;
 }
 
-p, h1, h2 {
+p, h1, h2, li {
   color: #FEFBF4;
   font-family: 'Nanum Gothic', sans-serif;
   margin: 10px;
@@ -408,6 +408,17 @@ img{
   position: relative;
   top: 700px;
   text-align: center;
+}
+
+.list-awards {
+  list-style: none;
+  color: #ffff;
+}
+
+.tri-awards {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 @media (max-width: 1128px) {
