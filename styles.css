@@ -392,7 +392,7 @@ a {
   position: relative;
   animation: animatedBackground 50s linear infinite;
 }
-img{
+img {
   box-sizing:border-box;
 }
 
@@ -409,6 +409,14 @@ img{
   top: 700px;
   text-align: center;
 }
+.awards {
+  margin: 0 auto;
+  max-width: 1100px
+}
+
+.awards-aqua {
+  margin: 50px;
+}
 
 .list-awards {
   list-style: none;
@@ -419,6 +427,28 @@ img{
   margin: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.awards-title{
+  text-align: center;
+  font-size: 40px;
+}
+
+.no-dup {
+  text-align: center;
+}
+
+.mail {
+  height: 1000px;
+}
+
+.mail-form {
+  text-align: center;
+}
+
+.contact-form {
+  margin: 100px 0 0 20px;
 }
 
 @media (max-width: 1128px) {
