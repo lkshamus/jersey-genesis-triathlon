@@ -147,10 +147,26 @@ p, h1, h2, li {
   background: #2A3F57;
 }
 
+a:hover {
+  color: #1AAB8A;
+}
+
+.fb:hover {
+  color: white;
+}
+
 .course-btn {
   position: relative;
   right: 15px;
   width: 250px;
+}
+
+.hero-btn {
+  width: 500px;
+}
+
+.hero-btn:hover {
+  background-color: white;
 }
 
 .hero-header:hover {
@@ -790,12 +806,4 @@ body {
   max-width: 414px;
 }
 
-/*@keyframes animatedBackground {
-  from {
-    left: 0px;
-  }
-  100% {
-    left: 0px;
-  }
-}*/
 }
