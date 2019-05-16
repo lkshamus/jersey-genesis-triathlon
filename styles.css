@@ -658,7 +658,9 @@ body {
 .info-tab {
   padding: 10px;
 }
-
+.nav-icons {
+  font-size: 14px;
+}
 .sponsering, .sponser-section, .space {
   min-width: 767px;
 }
@@ -840,7 +842,7 @@ body {
 @media (max-width: 420px) {
 
   .nav-icons {
-    font-size: 12px;
+    font-size: 8px;
   }
   .sponsering, .sponser-section, .space {
   max-width: 420px;
@@ -851,7 +853,7 @@ body {
 @media (max-width: 414px) {
 
   .nav-icons {
-    font-size: 12px;
+    font-size: 10px;
   }
   .sponsering, .sponser-section, .space {
   max-width: 414px;
